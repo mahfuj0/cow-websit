@@ -1,0 +1,39 @@
+
+.style:hover{
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: #dc3545;
+    padding: 5px;
+}
+.bg-color{
+    background-color: rgba(128, 128, 128, 0.808);
+    margin-top: 5px;
+    margin-bottom:20px;
+}
+.image img{
+    width: 300px;
+    box-shadow: honeydew;
+    margin: 7px 0;
+}
+
+.icon{
+    
+  display: flex;
+  color: #FFF;
+}
+.icon a{
+   padding: 10px;
+   margin:0 10px;
+   color: #FFF;
+   font-size: 1.5em;
+}
+.icon a:hover{
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+
+}
+.copy-right{
+    color: white;
+    text-align: center;
+}

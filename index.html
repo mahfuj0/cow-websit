@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrao style  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c39668cd05.js" crossorigin="anonymous"></script>
+    <!-- favicin -->
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <!-- css style  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar  navbar-expand-lg fixed-top navbar-dark bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex flex-column" href="#">
+        <img src="logo.jpg" alt="" width="40" height="30">
+        হাম্বা মোবারক
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarScroll">
+        <ul class="navbar-nav me-auto  my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-link active " href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ANIMALS  
+            </a> 
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#Cows"> হাম্বা</a></li>
+              <li><a class="dropdown-item" href="#Dumba"> দুম্বা</a></li>
+              <li><a class="dropdown-item" href="#Camels"> উট</a></li>
+              <li><a class="dropdown-item" href="#Goat">ছাগল </a></li>
+          
+            </ul>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#OurTeam">OUR TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Contect">CONTECT</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- carousel style  -->
+      <section class="container my-5 ">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active " data-bs-interval="10000">
+                <img src="images/carousel/cow.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block bg-danger text-light p-1">
+                  <h5>সাদা-কাইল্ল দুধ ওয়ালী</h5>
+                  <p> এইডা হচ্ছে জাপানি দুধ ওয়ালী খুবি টেস্টি হপ্পে এই ধরনের দুধ ওয়ালী খেয়ে এমন মন্তব্য করেছে ড্রাম্প!</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/carousel/goat.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block bg-danger text-light p-1">
+                  <h5>সাদা খাসি</h5>
+                  <p> ওহ! কি আর কমু এক্কেবারে ১০০/১০০।  আমাগোরে খাসি বলে ছাগল খাবায় খুবি কুৎসিত আর দুর্গন্ধ যুক্ত। কিন্তু সেটা যদি হয় খাসি তাহলে তো কথাই নেই!দুই টেং তুইল্লা ছুব লাগাও। এমনি মন্তব্য করেছে এর মালিক। </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/carousel/camel with a man.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block bg-danger text-light p-1">
+                  <h5>বুইড়ার সাথে উট</h5>
+                  <p> হায় হায় আমাগো দেশে উট এইডা ভাবা যায়? তাছাড়া জ্বাল দিতে দিতে আগুন শেষ হয়ে যায় মাগার গোশত সিদ্ধ হয় না!কিন্তু এইডা যখন বাইডেন কাক্কু খেলেন তা মন্তব্য হলো, “মর তো ইচ্ছা হইতাছে আমেরিকা ছাইরা আফাগানিস্তান চলে যামু!” </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+</header>
+<main>
+  <article class="container my-5"> 
+    <div class="d-flex align-items-center ">
+      <div class="flex-shrink-0">
+        <img width="400" height="300" src="images/artical/secrifice.png" alt="...">
+      </div>
+      <div class="flex-grow-1 ms-3 fs-4 ">
+        কিরে ভাই আপনে প্রস্তুত তো? হাম্বা মোবারক চলে আসছে।হাম্বা,দুম্বা, উট,ছাগল, ভেড়া কিনে না থকলে এখনি কিনে ফেলো।আর হ্যাঁ লোক দেখানোর নিয়ত যেন না থাকে;নতুবা চান্দে যাবে কোরবানি।বর্তমানে কোরনা আপা আছইন সো টেনশনের কারন নাই এখনি  অর্ডার দিয়ে ফেলুন আপনার পছন্দের হাম্বা দুম্বা আমাদের অনলাইন শপে।আর ঘরে বসে  এনজয় করুন হাম্বা মোবারক!
+    </div>
+  </div>
+  </article>
+
+    <!-- categories -->
+  </article>
+  <section class="m-5">
+      <div class="container overflow-hidden my-5">
+        <div class="row gx-4 row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col">
+           <div class="p-2 border-0 rounded-3 bg-success d-flex align-items-center justify-content-between">
+             <h1>Cows</h1>
+            <img width="120" height="100" src="png/1.png" alt="">
+           </div>
+           
+          </div>
+          <div class="col">
+            <div class="p-2 border-0 rounded-3 bg-success d-flex align-items-center justify-content-between">
+              <h1>Dumba</h1>
+              <img width="120" height="100" src="png/2.png" alt="">
+            </div>
+            
+          </div>
+          <div class="col">
+            <div class="p-2 border-0 rounded-3 bg-success d-flex align-items-center justify-content-between">
+              <h2>Camels</h2>
+              <img width="120" height="100" src="png/3.png" alt="">
+            </div>
+           
+          </div>
+          <div class="col">
+            <div class="p-2 border-0 rounded-3 bg-success d-flex align-items-center justify-content-between">
+              <h1>Goat</h1>
+              <img width="120" height="100" src="png/4.png" alt="">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- card  -->
+  <section class="m-5">
+    <article>
+      <h2>Cows</h2>
+      <div id="Cows" class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/cow/cow-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">কাইল্লা সিং ওয়ালা হাম্বা</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1>৭১০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/cow/cow-2.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">kalaring মিশ্রিত দুধ ওয়ালী</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1> ৬৫০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/cow/cow-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">এব্রোথেব্রো লোম বিশিষ্ট বলদ।</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1>৫৫০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/cow/cow-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">আধা মরা হাম্বা </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1>৪৫০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="m-5">
+    <article>
+      <h2>Dumba</h2>
+      <div id="Dumba" class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/dumba/dumba-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">লম্বা লেজ ওয়ালী দুম্বা</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+             <br>
+              <h1>   ৪১০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/dumba/dumba-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">লেজশূন্য  দুম্বা </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1> ৬০০০০৳</h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/dumba/dumba-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">লেজ উলটানো দুম্বা</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1>৪৫০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/dumba/dumba-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">লেজ কাটা দুম্বা</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1>৩৫০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="m-5">
+    <article>
+      <h2>Camels</h2>
+      <div id="Camels" class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/camel/camel-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">তলা নাই উট 
+
+                </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1>৭০০০০৳  </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/camel/camel-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">আফগানি উট</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1>৮৯০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+          
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/camel/camel-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">আফ্রিকার উট</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1> ৯১০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/camel/camel-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">দুই গুঁজ ওয়ালী উট</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1> ৯৭০০০৳  </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="m-5">
+    <article>
+      <h2>Goat</h2>
+      <div id="Goat" class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/sheep/goat-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">সাদা খাসি</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1> ৯৭০০০৳  </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/sheep/goat-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">কাইল্লা খাসি</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1> ২১০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/sheep/goat-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">শিং ওয়ালী খাসি</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1> ২৩০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/sheep/goat-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">রাম ছাগল </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+              <br>
+              <h1> ১৩০০০৳ </h1>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+  <!-- our Farm -->
+  <section class="m-5">
+    <article>
+      <h2>Our Farm</h2>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/farrm/cow.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cows Farm</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, sit amet consectetur adipisicing elit. totam.</p>
+              <br>
+              <button type="button" class="btn btn-success">Learn More...</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/farrm/dumba.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dumba Farm</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, sit amet consectetur adipisicing elit. totam.</p>
+              <br>
+              <button type="button" class="btn btn-success">Learn More...</button>
+              
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/farrm/camel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camels Farm</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, sit amet consectetur adipisicing elit. totam.</p>
+              <br>
+              <button type="button" class="btn btn-success">Learn More...</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/farrm/goat.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Goats Farm </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, sit amet consectetur adipisicing elit. totam.</p>
+              <br>
+              <button type="button" class="btn btn-success">Learn More...</button>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+  <!-- our team  -->
+  <section class="container-fluid my-5">
+    <article id="OurTeam">
+      <h2>Our Team</h2>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/team/team-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Uk Team</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, sit amet consectetur adipisicing elit. totam.</p>
+              <br>
+              <button type="button" class="btn btn-success">Learn More...</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/team/team-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">us Team</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, sit amet consectetur adipisicing elit. totam.</p>
+              <br>
+              <button type="button" class="btn btn-success">Learn More...</button>
+              
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/team/team-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BD Team</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, sit amet consectetur adipisicing elit. totam.</p>
+              <br>
+              <button type="button" class="btn btn-success">Learn More...</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded">
+            <img width="200" height="200" src="images/team/team-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Canada Team </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, sit amet consectetur adipisicing elit. totam.</p>
+              <br>
+              <button type="button" class="btn btn-success">Learn More...</button>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+  <!-- submit aria  -->
+  <div id="Contect" class="bg-danger mt-5">
+  <div class="container  d-flex justify-content-center align-items-center rounded-3">
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-12 ">
+      <button type="submit" class="btn btn-primary style">Sign in</button>
+    </div>
+  </form>
+</div>
+</div>
+</main>
+<footer class=" bg-color"> 
+      <div class="container ">
+        <div class="row gx-5 d-flex justify-content-between align-items-center  row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col image">
+           <div>
+            <img  src="images/artical/footer ads.png" alt="">
+           </div>
+           
+          </div>
+          <div class="col ">
+            <div class="icon" >
+              
+              <a href="https://www.facebook.com/masumahmedpro/"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/mahfuj54321/"><i class="fab fa-instagram-square"></i></a>
+              <a href="https://www.linkedin.com/in/muslim-pro-bd-/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+          </div>
+          <div class="col image">
+            <div >
+              <img src="images/artical/footer ads-2.png" alt="">
+            </div>
+           
+          </div>
+         
+        </div>
+      </div>
+      <p class="copy-right">€ copy right humba website</p>
+    </footer>
+
+    <!-- js style  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
