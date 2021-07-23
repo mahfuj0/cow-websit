@@ -1,4 +1,11 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    overflow-x: hidden;
+}
 .style:hover{
     border: 2px solid white;
     border-radius: 3px;
